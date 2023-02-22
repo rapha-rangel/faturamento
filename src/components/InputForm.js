@@ -26,7 +26,6 @@ const InputForm= ({handleSave})=>{
         event.target.reset();
         setDescricao(!descricao);
         setValor(!valor);
-        console.log(descricao)
         }
     }
 
