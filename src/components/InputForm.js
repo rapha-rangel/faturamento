@@ -45,13 +45,13 @@ const InputForm= ({handleSave})=>{
                     type="submit"
                     entrada
                     onClick={()=> setTipo(0)}
-                    >Entrada
+                    >Receita
                 </Button>
                 <Button
                     type="submit"
                     saida
                     onClick={()=> setTipo(1)}
-                    >Saida
+                    >Dispesa
                 </Button>
             </div>
         </form>

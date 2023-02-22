@@ -56,6 +56,7 @@ export const Itens = styled.div`
         }
         &:hover{
             transform: scale(1.2);
+            cursor: pointer;
         }
     `
 
