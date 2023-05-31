@@ -1,9 +1,12 @@
-import './App.css';
 import Faturamento from './components/Faturamento';
+import { GlobalStyle } from './components/style';
 
 function App() {
   return (
-    <Faturamento/>
+    <>
+      <GlobalStyle/>
+      <Faturamento/>
+    </>
   );
 }
 

@@ -1,14 +1,17 @@
-import {Itens} from "./style";
+import {ItemContainer, ItemTitle, ItemInfo, ItemSpan } from "./ResumoItensStyle";
 
-const ResumoItens = ({valor, titulo, color})=>{
-    return(
-        <Itens color={color}>
-            <h2>{titulo}</h2>
-            <div>
-                <span>R$</span><span>{valor}</span>
-            </div>
-        </Itens>
-    )
+const ResumoItens = ({valor, titulo, color, darkChange})=>{
+   
+
+	return(
+		<ItemContainer darkChange={darkChange}>
+			<ItemTitle titulo={titulo}>{titulo}</ItemTitle>
+			<ItemInfo >
+				<ItemSpan titulo={titulo}>R$</ItemSpan>
+				<ItemSpan titulo={titulo} color={color}>{valor}</ItemSpan>
+			</ItemInfo>
+		</ItemContainer>
+	)
 
 }
 
