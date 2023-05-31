@@ -13,5 +13,6 @@ Projeto onde o usuario diz qual o nome e o valor da ação( dispesa ou receita) 
 
 ## Tela:
 
-![faturamento_image](https://user-images.githubusercontent.com/110298670/220726403-62f01697-ffd9-40b9-990c-a6ddb12b4b3c.png)
+![Faturamento1](https://github.com/rapha-rangel/faturamento/assets/110298670/3adf8ce7-0e48-446f-a809-517f003283d2)
+![Faturamento2](https://github.com/rapha-rangel/faturamento/assets/110298670/3da44c0b-5a7b-494f-a259-eee3a7dd23e7)
 
